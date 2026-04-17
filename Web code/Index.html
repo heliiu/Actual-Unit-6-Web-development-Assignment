@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html>
     <head>
 <title>Hot Beans Web</title>
@@ -46,6 +47,40 @@ padding:0 20px;
   text-align: left;
   width: 35%;
 }
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+   padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
  
 </style>
 
@@ -53,26 +88,15 @@ padding:0 20px;
 
 <body>
   
- <h1 style="color:#000000; text-align:center;">HotBeans Web</h1>
+ <h1 style="color:#000000; text-align:center;"> Hot beans Web </h1>
 
-<nav>
-            <ul class="w3-bar w3-brown">
-                <li class="w3-bar-item w3-button"><a href="Home.html"> Home</a></li>
-                <li class="w3-bar-item w3-button"><a href="Staff.html"> Staff</a></li>
-                <li class="w3-bar-item w3-button"><a href="Map.html"> Map</a></li>
-                <li class="w3-bar-item w3-button"><a href="Workwithus.html"> Workwithus</a></li>
-                <div class="w3-dropdown-hover">
-                  <button class="w3-button">Aboutus <i class="fa fa-caret-down"></i></button>
-                  <div class="w3-dropdown-content w3-card-4 w3-bar-block">
-                    <a href="Physical roles.html" class="w3-bar-item w3-button">Physical Roles</a>
-                    <a href="Support Roles.html" class="w3-bar-item w3-button">Support Roles</a>
-                    <a href="Admin Roles.html" class="w3-bar-item w3-button">Admin Roles</a>
-                    <a href="Station Roles.html" class="w3-bar-item w3-button">Station Roles</a>
-                  </div>
-                </div>
-            </ul>
-        </nav>
-</nav>
+<div class="sidenav">
+  <a href="Index.html">Home</a>
+  <a href="TheTeam.html">Team</a>
+  <a href="Jobs.html">Jobs</a>
+  <a href="Apply.html">Apply Now</a>
+  <a href="Other.html">Other Courses</a>
+</div>
 
 
 <main class="w3-cell-row">
@@ -100,7 +124,7 @@ padding:0 20px;
 
 
 <main class="footer">
-  <p>Footer after designs</p>
+  <p>Heritage Railways</p>
 </main>
 
 </body>
